@@ -1,12 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point of the program
+ * main - A program tha prints a line with puts function
  *
- * Description:
- * This function is the entry point for the program. It uses the 'puts' function to print a message to the standard output.
- *
- * Return:
- * Return value: 0 (Success)
+ *Return: 0 (Success)
  */
 int main(void)
 {
