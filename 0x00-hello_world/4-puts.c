@@ -3,10 +3,10 @@
  * main - Entry point of the program
  *
  * Description:
- * This function is the entry point for the program. It uses the 'puts' function to print a message to the standard output and thenn returns 0 to indicate successful execution
+ * This function is the entry point for the program. It uses the 'puts' function to print a message to the standard output.
  *
  * Return:
- * Return value: 0 to indicate successful execution
+ * Return value: 0 (Success)
  */
 int main(void)
 {
