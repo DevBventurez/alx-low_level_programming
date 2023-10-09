@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - empty point.
- * Description: print the value of n status:
- *              greater than, is zero and is not less than 6.
+ * main - Entry point.
+ * Description: Print the last digit of a random number and provide
+ * information about it.
  *
  * Return: Always 0 (success)
  */
@@ -14,7 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if ((n % 10) > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
@@ -25,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is 0\n", n, n % 10);
+		printf("Last digit of %d is 0\n", n);
 	}
 	return (0);
-}
+}}
