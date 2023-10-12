@@ -3,7 +3,8 @@
  * print_sign - prints the sign of a given number
  * @: Number to be tested
  *
- * Return: 1 if positive and greater than zero, 0 if is zero and -1 if negative.
+ * Return: 1 if positive and greater than zero, 0 if is zero and
+ * -1 if negative.
  */
 int print_sign(int m)
 {
