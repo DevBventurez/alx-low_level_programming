@@ -6,7 +6,7 @@
  * @b: int to be added to c
  * Return: sum of c and b
  */
-int ad(int a, int b)
+int add(int a, int b)
 {
 	int c;
 
