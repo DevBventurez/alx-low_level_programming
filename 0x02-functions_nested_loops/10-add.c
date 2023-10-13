@@ -4,13 +4,13 @@
  * add - adds two integers and returns the result
  * @c: int to be added to b
  * @b: int to be added to c
- * Return: sum of c and b
+ * Return: sum ofthe two integers
  */
-int add(int a, int b)
+int add(int c, int b)
 {
-	int c;
+	int a;
 
-	c = a + b;
+	a = c + b;
 
-	return (c);
+	return (a);
 }
