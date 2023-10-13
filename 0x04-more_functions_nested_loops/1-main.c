@@ -1,9 +1,8 @@
-#include "main.h"
-#include <stdio.h>
+#include "main.c"
+#include <stdio>
 
 /**
- *
- * main - here is the code
+ * main - check the code
  *
  * Return: Always 0.
  */
