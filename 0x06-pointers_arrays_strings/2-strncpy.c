@@ -3,23 +3,26 @@
 /**
  * _strncpy - function name
  * @dest: parameter one
- * @src: patameter two
+ * @src: parameter two
  * @n: parameter three
  * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i;
-
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	int j;
+     	
+	j = 0;
+	while (j < n && src[j] != '\0')
 	{
-		while (i < n)
-		{
-			dest[i] = '\0';
-			i++;
-		}
-	}
+		dest[j] = src[j];
+		j++;
 
+	}
+	while (j < n)
+	{
+		dest[j] = '\0';
+		j++;
+	}
 	return (dest);
 }

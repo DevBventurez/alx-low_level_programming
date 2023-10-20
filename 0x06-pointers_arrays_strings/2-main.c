@@ -14,7 +14,9 @@ int main(void)
 
 	for (i = 0; i < 98 - 1; i++)
 	{
+
 		s1[i] = '*';
+		
 	}
 	s1[i] = '\0';
 	printf("%s\n", s1);
@@ -28,13 +30,13 @@ int main(void)
 	{
 		if (i % 10)
 		{
-			printf(" ");
+		    printf(" ");
 		}
 		if (!(i % 10) && i)
 		{
-			printf("\n");
+		    printf("\n");
 		}
-		printf("0x%02x", s1[1]);
+		printf("0x%02x", s1[i]);
 	}
 	printf("\n");
 	return (0);
