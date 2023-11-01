@@ -1,13 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * free_grid - frees 2d array
- * grid: 2d grid
- * @height: height dimension of grid
- * Description: frees memory of grid
- * Return: nothing
+ * free_grid - frees a 2d previously created by alloc_grid function
+ * @grid: The 2D grid to be freed
+ * @height: The height of the grid
  *
+ *
+ * Return: void
  */
 void free_grid(int **grid, int height)
 {
