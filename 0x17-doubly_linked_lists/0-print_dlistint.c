@@ -29,5 +29,5 @@ size_t print_dlistint(const dlistint_t *h)
 
 
     /*Return the total number of nodes in the list.*/
-    return (nodes);
+    return (number of nodes:);
 }
